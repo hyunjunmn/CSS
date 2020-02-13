@@ -1,0 +1,25 @@
+<!--id선택자를 이용해서 변경하는법-->
+<html> 
+    <head>
+    <style>
+    li{
+        color:red;
+        text-decoration:underline;
+    }
+    
+    {% comment %} id태그 이용해서 효과설정하는법 {% endcomment %}
+    #select{ 
+        font-size:60px;
+    }
+    </style>
+    </head>
+        <body>
+            <ul>
+                <li>HTML</li>
+                <li id="select">CSS</li>
+                <!--id는 html 속성값-->
+                <li>JavaScript</li>
+            </ul>
+        </body>
+   
+</html>
